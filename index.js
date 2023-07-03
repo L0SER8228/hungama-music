@@ -149,16 +149,16 @@ async function getInfo(url) {
  * @returns {Promise<Readable>}
  */
 async function hgdl(link) {
-    try {
-      const data = await getInfo(link);
-      if (!data) throw new Error("Invalid URL.");
+  try {
+    const data = await getInfo(link);
+    if (!data) throw new Error("Invalid URL.");
 
-      const streamURL = await download(data.stream);
+    const streamURL = await download(data.stream);
 
-      return streamURL;
-    } catch (err) {
-     return err;
-    }
+    return streamURL;
+  } catch (err) {
+    return err;
+  }
 }
 
 module.exports = hgdl;
