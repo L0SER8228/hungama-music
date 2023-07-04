@@ -10,9 +10,16 @@
 [![GitHub issues](https://img.shields.io/github/issues/l0ser8228/hungama-music)](https://github.com/l0ser8228/hungama-music/issues)
 
 # hungama-music
+
 Get info and download music from **[https://hungama.com](https://hungama.com)**.
 
 # Examples
+
+## install
+
+```bash
+npm i hungama-music
+```
 
 ## Download audio
 
@@ -26,7 +33,7 @@ const https = require("https");
 
   const info = await hungama.getInfo(url);
   const streamURL = await hungama.download(info.stream);
-  const stream = fs.createWriteStream(`./test/${info.name.replace(/ /g, "_")}.${streamURL.type}`);
+  const stream = fs.createWriteStream(`./test/${info.name.replace(/ /g, "_")}.mp3`);
 
   https.get(streamURL.link, (response) => {
     response.pipe(stream);
