@@ -53,6 +53,6 @@ hungama.getInfo("https://www.hungama.com/song/once-upon-a-time/87546214/")
 
 
 ## Supporters
-[![Stargazers repo roster](https://reporoster.com/stars/l0ser8228/hungama-music)](https://github.com/l0ser8228/hungama-music/stargazers)
+[![Stargazers repo roster](https://reporoster.com/stars/L0SER8228/hungama-music)](https://github.com/L0SER8228/hungama-music/stargazers)
 
-[![Forkers repo roster](https://reporoster.com/forks/l0ser8228/hungama-music)](https://github.com/l0ser8228/hungama-music/network/members)
+[![Forkers repo roster](https://reporoster.com/forks/L0SER8228/hungama-music)](https://github.com/L0SER8228/hungama-music/network/members)
